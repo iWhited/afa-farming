@@ -1,8 +1,12 @@
 <template>
-    <button class="py-2 px-7 w-full relative text-sm border-4 border-white rounded-full font-bold bg-black text-white hover:text-black hover:bg-gray-400 cursor-not-allowed tooltip" disabled>
+  <div x-data="{ tooltip: false }">
+    <button x-on:mouseover="tooltip = true" 
+    x-on:mouseleave="tooltip = false"
+    class="py-2 px-7 w-full relative text-sm border-4 border-white rounded-full font-bold bg-black text-white hover:text-black hover:bg-gray-400 cursor-not-allowed tooltip" disabled>
       <span>Stake</span>
-      <span class="tooltiptext">Available soon!</span>
+      <span x-if="tooltip" class="tooltiptext">Available soon!</span>
     </button>
+  </div>
 </template>
 
 <script>

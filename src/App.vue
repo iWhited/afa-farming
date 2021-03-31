@@ -47,7 +47,7 @@
 			</h1>
 			<div class="mt-2 font-semibold text-xl flex justify-between items-center">
 				<div>
-					128.76
+					0.00
 				</div>
 				
 				<ButtonGreenSMSoon text="claim"></ButtonGreenSMSoon>
@@ -59,7 +59,7 @@
 
 			<div class="mt-2 font-semibold flex justify-between items-center">
 				<div class="text-xl">
-					28
+					00.00
 				</div>
 			</div>
 			<div class="-mt-1 text-xs">
@@ -80,7 +80,7 @@
 			<h1 class="text-4xl font-extrabold">CAKE</h1>
 			<div class="mt-3 font-semibold text-2xl flex justify-between items-center">
 				<div>
-					3564797.76
+					00.00
 				</div>
 				<ButtonGreenSMSoon text="claim"></ButtonGreenSMSoon>
 			</div>
@@ -90,7 +90,7 @@
 
 			<div class="mt-3 font-semibold md:flex justify-between items-center">
 				<div class="text-2xl">
-					257.98
+					00.00
 				</div>
 			</div>
 			<div class="-mt-1 text-sm">
