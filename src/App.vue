@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Staking hello="coucou" />
+    <Staking hello="We fight for Art." />
   </div>
 </template>
 
