@@ -9,6 +9,9 @@ module.exports = {
 					'greenPastel': '#BDE8C6'
 				},
 			},
+			spacing: {
+				'68': '17rem',
+			}
 		},
 	},
   variants: {

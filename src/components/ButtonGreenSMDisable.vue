@@ -4,7 +4,7 @@
     <button 
     x-on:click="loading = !loading"
     x-bind:disabled="loading"
-    class="py-1 px-8 lg:px-5 relative text-md text-white bg-green-200 rounded-full font-bold focus:bg-green-600 focus:outline-none cursor-not-allowed pointer-events-none">
+    class="py-2 px-8 lg:px-5 relative text-base text-white bg-green-200 rounded-full font-bold focus:bg-green-600 focus:outline-none cursor-not-allowed pointer-events-none">
       <div x-bind:class="{ 'hidden' : !loading, 'block' : loading }"
       class="absolute inset-0 bg-green-600 rounded-full flex justify-center items-center">
         <span x-bind:class="{ 'inline spinner' : loading, 'hidden' : !loading }"

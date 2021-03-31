@@ -1,5 +1,5 @@
 <template>
-    <button class="py-1 lg:px-5 px-8 relative text-md text-white bg-green-400 rounded-full font-bold hover:text-black hover:bg-gray-400 cursor-not-allowed tooltip" disabled>
+    <button class="py-2 lg:px-5 px-8 relative text-base text-white bg-green-400 rounded-full font-bold hover:text-black hover:bg-gray-400 cursor-not-allowed tooltip" disabled>
       {{ text }}
       <span class="tooltiptext">Available soon!</span>
     </button>
