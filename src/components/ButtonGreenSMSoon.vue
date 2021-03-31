@@ -1,6 +1,6 @@
 <template>
-    <button class="px-8 py-3 lg:px-5 lg:py-2 relative text-sm text-white bg-green-400 rounded-full font-bold hover:text-black hover:bg-gray-400 cursor-not-allowed tooltip" disabled>
-      Claim
+    <button class="py-1 lg:px-5 px-8 relative text-md text-white bg-green-400 rounded-full font-bold hover:text-black hover:bg-gray-400 cursor-not-allowed tooltip" disabled>
+      {{ text }}
       <span class="tooltiptext">Available soon!</span>
     </button>
 </template>

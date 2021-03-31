@@ -20,10 +20,10 @@
 		</div>
 
 		<div class="flex-1 text-right">
-			<button href="#"
+			<!-- <button href="#"
 			class="inline-block py-2 px-6 font-bold text-white bg-black rounded-full border-4 border-black hover:bg-white hover:text-black focus:bg-white focus:text-black focus:outline-none">
 				Connect
-		</button>
+			</button> -->
 		</div>
 
 	</header>
@@ -33,7 +33,7 @@
 
 	<!-- Valuable proposition -->
 	<section class="mx-auto px-4 container xl:max-w-screen-xl">
-		<p class="text-5xl text-center font-bold poppins leading-tight md:leading-none">
+		<p class="text-5xl text-center font-black poppins leading-tight md:leading-none">
 			Farm your ART tokens <br>
 		</p>
 		
@@ -41,104 +41,100 @@
 
 	<!-- Farming blocs -->
 	<section class="mt-10 mx-auto px-4 container lg:max-w-screen-lg lg:flex lg:justify-center">
-		<div class="my-8 lg:-mr-2 p-8 border-4 lg:border-r-0 border-gray-100 rounded-xl lg:rounded-r-0">
-			<h1 class="text-3xl font-extrabold">
-				BNB
-			</h1>
-			<div class="mt-2 font-semibold text-xl flex justify-between items-center">
-				<div>
+		<div class="my-8 flex-1 lg:-mr-4 p-8 border-4 lg:border-r-0 border-gray-100 rounded-xl lg:rounded-r-0">
+			<h1 class="text-3xl font-black">BNB</h1>
+			<div class="mt-2 font-black flex justify-between items-center">
+				<div class="text-xl">
 					0.00
 				</div>
-				
-				<ButtonGreenSMSoon text="claim"></ButtonGreenSMSoon>
+				<ButtonGreenSM text="claim"></ButtonGreenSM>
 				
 			</div>
-			<div class="-mt-2 text-xs">
+			<div class="-mt-2 text-xs font-bold">
 				ART earned
 			</div>
 
 			<div class="mt-2 font-semibold flex justify-between items-center">
-				<div class="text-xl">
-					00.00
+				<div class="text-xl font-black">
+					0.00
 				</div>
 			</div>
-			<div class="-mt-1 text-xs">
+			<div class="-mt-1 text-xs font-bold">
 				BNB staked
 			</div>
 
 			<div class="mt-6 flex justify-between items-center">
-				<ButtonWhiteSoon text="Stake" class="flex-1 w-full md:w-auto"></ButtonWhiteSoon>
-				<ButtonWhiteSoon text="Unstake" class="ml-8 flex-1 w-full md:w-auto"></ButtonWhiteSoon>
+				<ButtonWhite text="Stake" class="flex-1 w-full md:w-auto"></ButtonWhite>
+				<ButtonWhite text="Unstake" class="ml-8 flex-1 w-full md:w-auto"></ButtonWhite>
 			</div>
 
-			<div class="mt-6 text-sm text-center lg:text-left">
+			<div class="mt-6 text-sm font-bold text-center lg:text-left">
 				APR: 150%
 			</div>
 		</div>
 
 		<div class="p-8 flex-1 z-10 bg-black text-white rounded-xl afaShadow">
-			<h1 class="text-4xl font-extrabold">CAKE</h1>
-			<div class="mt-3 font-semibold text-2xl flex justify-between items-center">
-				<div>
-					00.00
+			<h1 class="text-4xl font-black">CAKE</h1>
+			<div class="mt-3 font-semibold flex justify-between items-center">
+				<div class="text-2xl font-black">
+					0.00
 				</div>
-				<ButtonGreenSMSoon text="claim"></ButtonGreenSMSoon>
+				<ButtonGreenSMDisable text="claim"></ButtonGreenSMDisable>
+
 			</div>
-			<div class="-mt-1 text-sm">
+			<div class="-mt-1 text-sm font-bold">
 				ART earned
 			</div>
 
 			<div class="mt-3 font-semibold md:flex justify-between items-center">
-				<div class="text-2xl">
-					00.00
+				<div class="text-2xl font-black">
+					0.00
 				</div>
 			</div>
-			<div class="-mt-1 text-sm">
+			<div class="-mt-1 text-sm font-bold">
 				CAKE staked
 			</div>
 
-			<div class="mt-6 flex justify-between items-center">
+			<div class="mt-5 flex justify-between items-center">
 
-				<ButtonBlackOnWhiteSoon text="Stake" class="mt-2 flex-1 w-full md:w-auto"></ButtonBlackOnWhiteSoon>
-				<ButtonBlackOnWhiteSoon text="Unstake" class="mt-2 ml-8 flex-1 w-full md:w-auto"></ButtonBlackOnWhiteSoon>
+				<ButtonBlackOnBlack text="Stake" class="mt-2 flex-1 w-full md:w-auto"></ButtonBlackOnBlack>
 
 			</div>
 
-			<div class="mt-6 text-sm text-center lg:text-left">
+			<div class="mt-6 text-sm font-bold text-center lg:text-left">
 				APR: 200%
 			</div>
 		</div>
 		
-		<div class="my-8 lg:-ml-2 p-8 border-4 lg:border-l-0 border-gray-100 rounded-xl lg:rounded-r-xl">
-			<h1 class="text-3xl font-extrabold">BUSD</h1>
-			<div class="mt-2 font-semibold text-xl flex justify-between items-center">
-				<div>
+		<div class="my-8 flex-1 lg:-ml-4 p-8 border-4 lg:border-l-0 border-gray-100 rounded-xl lg:rounded-r-xl">
+			<h1 class="text-3xl font-black">BUSD</h1>
+			<div class="mt-2 font-semibold flex justify-between items-center">
+				<div class="text-xl font-black">
 					0.00
 				</div>
-				<ButtonGreenSMSoon text="claim"></ButtonGreenSMSoon>
+				<ButtonGreenSMDisable text="claim"></ButtonGreenSMDisable>
 
 			</div>
-			<div class="-mt-2 text-xs">
+			<div class="-mt-2 text-xs font-bold">
 				ART earned
 			</div>
 
 			<div class="mt-2 font-semibold md:flex justify-between items-center">
-				<div class="text-xl">
+				<div class="text-xl font-black">
 					0.00
 				</div>
 			</div>
-			<div class="-mt-1 text-xs">
+			<div class="-mt-1 text-xs font-bold">
 				BUSD staked
 			</div>
 
 			<div class="mt-6 flex justify-between items-center">
 
-				<ButtonWhiteSoon text="Stake" class="flex-1 w-full md:w-auto"></ButtonWhiteSoon>
-				<ButtonWhiteSoon text="Unstake" class="ml-8 flex-1 w-full md:w-auto"></ButtonWhiteSoon>
+				<ButtonWhiteSoon text="Approve ART" class="flex-1 w-full md:w-auto"></ButtonWhiteSoon>
 
 			</div>
 
-			<div class="mt-6 text-sm text-center lg:text-left">
+			<div class="mt-6 text-sm font-bold text-center lg:text-left">
 				APR: 150%
 			</div>
 		</div>
@@ -190,18 +186,22 @@
 </template>
 
 <script>
-import ButtonBlackOnWhiteSoon from './components/ButtonBlackOnWhiteSoon.vue'
-import ButtonGreenSMSoon from './components/ButtonGreenSMSoon.vue'
+import ButtonBlackOnBlack from './components/ButtonBlackOnBlack.vue'
+import ButtonGreenSMDisable from './components/ButtonGreenSMDisable.vue'
 import ButtonWhiteSoon from './components/ButtonWhiteSoon.vue'
+import ButtonWhite from './components/ButtonWhite.vue'
+import ButtonGreenSM from './components/ButtonGreenSM.vue'
 
 
 
 export default {
 	name: 'App',
 	components: {
-		ButtonBlackOnWhiteSoon,
-		ButtonGreenSMSoon,
+		ButtonBlackOnBlack,
+		ButtonGreenSMDisable,
 		ButtonWhiteSoon,
+		ButtonWhite,
+		ButtonGreenSM,
 	}
 }
 </script>

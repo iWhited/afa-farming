@@ -1,6 +1,6 @@
 <template>
-    <button class="py-2 px-7 w-full relative text-sm border-4 border-black rounded-full font-bold bg-white text-black hover:text-black hover:bg-gray-400 cursor-not-allowed tooltip" disabled>
-      <span>Stake</span>
+    <button class="py-1 px-7 w-full relative text-md border-4 border-black rounded-full font-bold bg-white text-black hover:text-black hover:bg-gray-400 cursor-not-allowed tooltip" disabled>
+      <span>{{ text }}</span>
       <span class="tooltiptext">Available soon!</span>
     </button>
 </template>

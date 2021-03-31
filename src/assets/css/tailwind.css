@@ -2,14 +2,14 @@
 @tailwind components;
 
 .baloo2 {
-	font-family: "Baloo 2";
+	font-family: "Baloo 2", "Gill Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, 
 button, 
 a, 
 .poppins {
-	font-family: 'Poppins';
+	font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -32,7 +32,7 @@ body {
 }
 
 .tremble {
-	animation: tremble 1s infinite linear;
+	animation: tremble .8s infinite linear;
 }
 
 @keyframes tremble {
