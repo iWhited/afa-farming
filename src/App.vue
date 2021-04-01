@@ -20,10 +20,10 @@
 		</div>
 
 		<div class="flex-1 text-right">
-			<!-- <button href="#"
-			class="inline-block py-2 px-6 font-bold text-white bg-black rounded-full border-4 border-black hover:bg-white hover:text-black focus:bg-white focus:text-black focus:outline-none">
+			<button href="#"
+			class="inline-block py-2 px-6 font-bold text-white bg-black rounded-full border-4 border-black hover:bg-white hover:text-black focus:bg-white focus:text-black focus:outline-none cursor-not-allowed" disabled>
 				Connect
-			</button> -->
+			</button>
 		</div>
 
 	</header>
@@ -40,14 +40,14 @@
 	</section>
 
 	<!-- Farming blocs -->
-	<section class="mt-10 mx-auto px-4 container lg:max-w-screen-lg lg:flex lg:justify-center">
-		<div class="my-8 lg:-mr-4 p-8 border-4 lg:border-r-0 border-gray-100 rounded-xl lg:rounded-r-0">
+	<section class="mt-10 mx-auto px-4 container xlg:max-w-screen-xlg lg:flex lg:justify-center">
+		<div class="w-auto xlg:w-350 my-8 lg:-mr-4 p-8 md:p-10 pr-16 border-4 lg:border-r-0 border-gray-100 rounded-xl lg:rounded-r-0">
 			<h1 class="text-4xl font-black">BNB</h1>
 			<div class="mt-2 font-black flex justify-between items-center">
 				<div class="text-2xl">
 					0.00
 				</div>
-				<ButtonGreenSMDisable text="claim"></ButtonGreenSMDisable>
+				<ButtonGreenSM text="Claim" attribute="disable"></ButtonGreenSM>
 				
 			</div>
 			<div class="-mt-2 text-base font-bold">
@@ -63,9 +63,9 @@
 				BNB staked
 			</div>
 
-			<div class="mt-6 flex justify-between items-center">
-				<ButtonWhite text="Stake" class="flex-1 w-full md:w-auto"></ButtonWhite>
-				<ButtonWhite text="Unstake" class="ml-8 flex-1 w-full md:w-auto"></ButtonWhite>
+			<div class="mt-6 w-full flex-col justify-between items-center">
+				<ButtonWhite text="Stake" attribute="normal" class="flex-1"></ButtonWhite>
+				<!-- <ButtonWhite text="Unstake" attribute="soon" class="mt-3 flex-1"></ButtonWhite> -->
 			</div>
 
 			<div class="mt-6 text-base font-bold text-center lg:text-left">
@@ -73,13 +73,13 @@
 			</div>
 		</div>
 
-		<div class="p-8 flex-1 z-10 bg-black text-white rounded-xl afaShadow">
+		<div class="w-auto xlg:w-380 p-8 md:p-10 z-10 bg-black text-white rounded-xl afaShadow">
 			<h1 class="text-5xl font-black">CAKE</h1>
 			<div class="mt-7 font-semibold flex justify-between items-center">
 				<div class="text-2xl font-black">
 					0.00
 				</div>
-				<ButtonGreenSMDisable text="claim"></ButtonGreenSMDisable>
+				<ButtonGreenSM text="Claim" attribute="disable"></ButtonGreenSM>
 
 			</div>
 			<div class="-mt-2 text-base font-bold">
@@ -95,11 +95,9 @@
 				CAKE staked
 			</div>
 
-			<div class="mt-9 flex justify-between items-center">
-
-				<ButtonBlackOnBlackSoon text="Stake" class="flex-1 w-full md:w-auto"></ButtonBlackOnBlackSoon>
-				<ButtonBlackOnBlackSoon text="Unstake" class="ml-8 flex-1 w-full md:w-auto"></ButtonBlackOnBlackSoon>
-
+			<div class="mt-8 w-full flex-col justify-between items-center">
+				<ButtonBlackOnBlack text="Stake" attribute="normal" class="flex-1"></ButtonBlackOnBlack>
+				<!-- <ButtonBlackOnBlack text="Unstake" attribute="soon" class="mt-3 flex-1"></ButtonBlackOnBlack> -->
 			</div>
 
 			<div class="mt-6 text-base font-bold text-center lg:text-left">
@@ -107,13 +105,13 @@
 			</div>
 		</div>
 		
-		<div class="my-8 lg:-ml-4 p-8 border-4 lg:border-l-0 border-gray-100 rounded-xl lg:rounded-r-xl">
+		<div class="w-auto xlg:w-350 my-8 lg:-ml-4 p-8 md:p-10 border-4 lg:border-l-0 border-gray-100 rounded-xl lg:rounded-r-xl">
 			<h1 class="text-4xl font-black">BUSD</h1>
 			<div class="mt-2 font-semibold flex justify-between items-center">
 				<div class="text-2xl font-black">
 					0.00
 				</div>
-				<ButtonGreenSMDisable text="claim"></ButtonGreenSMDisable>
+				<ButtonGreenSM text="Claim" attribute="disable"></ButtonGreenSM>
 
 			</div>
 			<div class="-mt-2 text-base font-bold">
@@ -129,11 +127,9 @@
 				BUSD staked
 			</div>
 
-			<div class="mt-6 flex justify-between items-center">
-<!-- 
-				<ButtonWhiteSoon text="Stake" class="flex-1 w-full md:w-auto"></ButtonWhiteSoon>
-				<ButtonWhiteSoon text="Unstake" class="ml-8 flex-1 w-full md:w-auto"></ButtonWhiteSoon> -->
-				<ButtonWhiteSoon text="Approve ART" class="block w-68"></ButtonWhiteSoon>
+			<div class="mt-6 w-full flex-col justify-between items-center">
+				<ButtonWhite text="Stake" attribute="normal" class="flex-1"></ButtonWhite>
+				<!-- <ButtonWhite text="Unstake" attribute="soon" class="mt-3 flex-1"></ButtonWhite> -->
 			</div>
 
 
@@ -144,14 +140,14 @@
 	</section>
 
 	<!-- Add Metamask -->
-	<div class="hidden md:block mt-3 text-center">
+	<!-- <div class="hidden md:block mt-3 text-center">
 		<a href="#" class="underline text-sm">
 			Add ART to Metamask
 		</a>
-	</div>
+	</div> -->
 
 	<!-- Social -->
-	<footer class="mt-20 mb-8 text-center">
+	<footer class="mt-12 mb-8 text-center">
 
 		<a href="https://docs.artforall.io" target="_blank" class="mx-3 my-4 md:my-0 py-2 px-6 w-2/3 md:w-auto inline-flex justify-center items-center border-4 border-black rounded-full font-bold bg-black text-white hover:bg-white hover:text-black  focus:outline-none">
 			<svg id="menu_book-24px_1_" data-name="menu_book-24px (1)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201 201" class="mr-3 w-6 h-6 fill-current">
@@ -204,10 +200,9 @@
 </template>
 
 <script>
-import ButtonGreenSMDisable from './components/ButtonGreenSMDisable.vue'
-import ButtonWhiteSoon from './components/ButtonWhiteSoon.vue'
+import ButtonGreenSM from './components/ButtonGreenSM.vue'
 import ButtonWhite from './components/ButtonWhite.vue'
-import ButtonBlackOnBlackSoon from './components/ButtonBlackOnBlackSoon.vue'
+import ButtonBlackOnBlack from './components/ButtonBlackOnBlack.vue'
 
 
 
@@ -215,10 +210,9 @@ import ButtonBlackOnBlackSoon from './components/ButtonBlackOnBlackSoon.vue'
 export default {
 	name: 'App',
 	components: {
-		ButtonGreenSMDisable,
-		ButtonWhiteSoon,
+		ButtonGreenSM,
 		ButtonWhite,
-		ButtonBlackOnBlackSoon,
+		ButtonBlackOnBlack,
 	}
 }
 </script>
