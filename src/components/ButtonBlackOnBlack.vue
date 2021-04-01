@@ -15,7 +15,7 @@
     class="w-full py-2 px-6 relative text-lg border-4 border-white rounded-full font-bold bg-black text-white hover:text-black hover:bg-white focus:text-gray-400 focus:outline-none"
     x-bind:class="{ 'cursor-not-allowed bg-gray-400 border-gray-400 hover:bg-gray-400' : loading }">
       <div class="absolute inset-0 bg-black rounded-full flex justify-center items-center"
-      x-bind:class="{ 'hidden' : !loading, 'block loading2' : loading }">
+      x-bind:class="{ 'hidden' : !loading, 'block loadingWhite2' : loading }">
         <span class="text-gray-400">{{ text }}</span>
       </div>
       <span>{{ text }}</span>
@@ -89,7 +89,7 @@ export default {
 }
 
 /* ------------------------ Loading bubbles */
-.loading2 {
+.loadingWhite2 {
   position: relative;
   overflow: hidden;
 }
@@ -130,15 +130,15 @@ export default {
     opacity: 0;
   }
 }
-.loading2::before, 
-.button2.loading::after {
+.loadingWhite2::before, 
+.loadingWhite2.loading::after {
   position: absolute;
   background: white;
   content: "";
   border-radius: 50%;
   animation: loop 3s infinite;
 }
-.loading2::after {
+.loadingWhite2::after {
   animation: loop 3s 1.2s infinite;
 }
 
