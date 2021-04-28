@@ -14,7 +14,9 @@ module.exports = {
 			colors: {
 				'gray-150': '#F2F2F2',
 				afa: {
-					'greenPastel': '#BDE8C6'
+					'greenPastel': '#BDE8C6',
+					'bluePastel' : '#B2E5FB',
+					'blueSrong' : '#016492',
 				},
 			},
 			spacing: {
@@ -24,6 +26,9 @@ module.exports = {
 				'350': '350px',
 				'380': '380px',
 			},
+			fontSize: {
+				'xxs': '.5rem',
+			}
 		},
 	},
   variants: {
