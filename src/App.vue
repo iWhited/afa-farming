@@ -5,182 +5,44 @@
 		<FarmHeader></FarmHeader>
 
 		<!-- intro -->
-		<FarmTimer></FarmTimer>
+		<FarmValuePorpoosition
+		starttime="Apr 28, 2021 15:37:25" 
+		endtime="May 8, 2021 16:37:25" 
+		trans='{  
+		"expired":"finished",
+		"running":"on going",
+		"upcoming":"upcoming",
+		"status": {
+			"expired":"Expired",
+			"running":"Running",
+			"upcoming":"Future"
+			}}'>
+		</FarmValuePorpoosition>
 
 		<!-- Farming blocs -->
-		<section class="px-4 md:px-10 mt-16 mx-auto container lg:max-w-screen-lg">
-			<div class="grid md:grid-cols-2 items-center">
-				<div class="md:h-full px-8 pt-9 pb-12 flex flex-col rounded-xl bg-black z-10">
-					<h1 class="flex-1 flex items-center font-black text-5xl sm:text-7xl text-white md:leading-tight break-words uppercase">
-						BUSD
-						<svg class="w-14 h-14 ml-4" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 620 620">
-							<g id="busd" transform="translate(15 14.62)">
-								<circle id="Ellipse_57" data-name="Ellipse 57" cx="295" cy="295" r="295" transform="translate(0 0.38)" stroke="#fff" stroke-width="30"/>
-								<path id="Tracé_2403" data-name="Tracé 2403" d="M395.128,445.8,520.927,320l50.16,50.16-125.8,125.8Zm.092,150.327L596.259,395.087l50.16,50.16L445.38,646.286ZM671.448,470.418,470.409,671.457l50.157,50.154L721.612,520.575ZM320,520.912l50.16-50.16,50.16,50.16-50.16,50.16Z" transform="translate(-225.503 -225.419)" fill="#fff" fill-rule="evenodd"/>
-							</g>
-						</svg>
-					</h1>
-					<ul class="pt-4 sm:pt-6 text-white font-bold text-lg sm:text-2xl">
-						<li>
-							Earn : ART
-						</li>
-						<li class="sm:mt-2">
-							APY : 100%
-						</li>
-						<li class="sm:mt-2">
-							TVL : 12875.23
-						</li>
-					</ul>
-				</div>
+	<FarmBlock
+		currency="BUSD"
+		apy="100"
+		tvl="2936.00"
+		earn="0.00"
+		stakeButton="Unlock to stake">
+	</FarmBlock>
 
-				<div class="-mt-2 md:my-8 mx-2 md:-ml-2 md:mr-0 py-8 px-4 md:pl-10 md:pr-6 border-4 lg:border-l-0 border-gray-100 rounded-xl lg:rounded-r-xl">
-					<div class="flex justify-between items-center">
-						<div class="font-semibold text-sm sm:text-xl">
-							<span class="font-black text-2xl sm:text-3xl">
-							00.00
-							</span>
-							<span class="lg:hidden"><br></span>
-							ART earned
-						</div>
-						<button class="py-2 px-4 w-32 inline-flex justify-center items-center text-xl md:text-xl border-4 border-black rounded-full font-bold bg-black text-white hover:bg-white hover:text-black focus:outline-none ">
-						Harvest
-					</button>
-					</div>
-					<div class="mt-8 flex justify-between items-center">
-						<div class="font-semibold text-sm sm:text-xl">
-							<span class="font-black text-2xl sm:text-3xl">
-							00.00
-							</span>
-							<span class="lg:hidden"><br></span>
-							BUSD staked 
-						</div>
-						<button class="py-2 px-4 w-32 inline-flex justify-center items-center text-xl md:text-xl border-4 border-black rounded-full font-bold bg-black text-white hover:bg-white hover:text-black focus:outline-none ">
-							Unlock
-						</button>
-					</div>
-					
-					</div>
-			</div>
-		</section>
+<FarmBlock
+		currency="Cake"
+		apy="150"
+		tvl="12875.23"
+		earn="0.00"
+		stakeButton="Unlock to stake">
+	</FarmBlock>
 
-		<section class="px-4 md:px-10 mt-16 mx-auto container lg:max-w-screen-lg">
-			<div class="grid md:grid-cols-2 items-center">
-				<div class="md:h-full px-8 pt-9 pb-12 flex flex-col rounded-xl bg-black z-10">
-					<h1 class="flex-1 flex items-center font-black text-5xl sm:text-7xl text-white md:leading-tight break-words uppercase">
-						cake
-						<svg class="w-14 h-14 ml-4" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 620 620">
-							<g id="Cake" transform="translate(4.744 0.927)">
-								<circle id="Ellipse_58" data-name="Ellipse 58" cx="295" cy="295" r="295" transform="translate(10.256 14.073)" stroke="#fff" stroke-width="30"/>
-								<g id="Groupe_63" data-name="Groupe 63" transform="translate(124.299 125.662)">
-									<path id="Tracé_2398" data-name="Tracé 2398" d="M64.9,57.743a48.283,48.283,0,1,1,95.752-8.87v59.533a288.592,288.592,0,0,1,39.827-.044V48.873a48.283,48.283,0,1,1,95.752,8.87L283.162,127.7c44.838,19.588,78.751,53.59,78.751,96.314v25.856c0,35.125-23.254,64.544-55.734,84.413-32.76,20.017-77.066,31.9-125.216,31.9s-92.47-11.886-125.215-31.9C23.24,314.428,0,285.009,0,249.883V224.027c0-42.5,33.558-76.371,78.027-95.989Zm201.513,79.165L281.7,55.038a33.514,33.514,0,1,0-66.451-6.165v75.75a264.427,264.427,0,0,0-34.3-2.173,273.6,273.6,0,0,0-35.081,2.277V48.873a33.514,33.514,0,1,0-66.451,6.15l15.345,82.151C46.8,154.989,14.783,187.246,14.783,224.027v25.856c0,56.088,74.39,101.562,166.166,101.562s166.2-45.474,166.2-101.562V224.027c0-36.988-32.376-69.364-80.717-87.119Z" transform="translate(0 0)" fill="#fff" fill-rule="evenodd"/>
-									<path id="Tracé_2399" data-name="Tracé 2399" d="M333.361,41.618c0,56.088-74.4,101.562-166.2,101.562S1,97.691,1,41.6V15.747H333.375V41.6Z" transform="translate(13.783 209.266)" fill="#fff7e6"/>
-									<path id="Tracé_2400" data-name="Tracé 2400" d="M65.647,41.349A33.514,33.514,0,1,1,132.1,35.184v75.839a272.455,272.455,0,0,1,69.379-.089V35.184a33.514,33.514,0,1,1,66.451,6.15L252.642,123.2C301,140.96,333.36,173.32,333.36,210.323c0,56.088-74.39,101.562-166.166,101.562C75.389,311.885,1,266.412,1,210.323c0-36.811,32.036-69.039,79.978-86.853L65.662,41.349Z" transform="translate(13.77 13.689)" fill-rule="evenodd"/>
-									<path id="Tracé_2401" data-name="Tracé 2401" d="M43.549,41.064c0,15.3-8.264,27.7-18.464,27.7S6.62,56.365,6.62,41.079s8.279-27.7,18.479-27.7S43.549,25.778,43.549,41.064Z" transform="translate(91.246 175.571)" fill="#fff"/>
-									<path id="Tracé_2402" data-name="Tracé 2402" d="M52.167,41.064c0,15.3-8.264,27.7-18.464,27.7s-18.464-12.4-18.464-27.689,8.279-27.7,18.479-27.7,18.45,12.4,18.45,27.689Z" transform="translate(210.032 175.571)" fill="#fff"/>
-								</g>
-							</g>
-						</svg>
-					</h1>
-					<ul class="pt-4 sm:pt-6 text-white font-bold text-lg sm:text-2xl">
-						<li>
-							Earn : ART
-						</li>
-						<li class="sm:mt-2">
-							APY : 100%
-						</li>
-						<li class="sm:mt-2">
-							TVL : 12875.23
-						</li>
-					</ul>
-				</div>
-
-				<div class="-mt-2 md:my-8 mx-2 md:-ml-2 md:mr-0 py-8 px-4 md:pl-10 md:pr-6 border-4 lg:border-l-0 border-gray-100 rounded-xl lg:rounded-r-xl">
-					<div class="flex justify-between items-center">
-						<div class="font-semibold text-sm sm:text-xl">
-							<span class="font-black text-2xl sm:text-3xl">
-							00.00
-							</span>
-							<span class="lg:hidden"><br></span>
-							ART earned
-						</div>
-						<button class="py-2 px-4 w-32 inline-flex justify-center items-center text-xl md:text-xl border-4 border-black rounded-full font-bold bg-black text-white hover:bg-white hover:text-black focus:outline-none ">
-						Harvest
-					</button>
-					</div>
-					<div class="mt-8 flex justify-between items-center">
-						<div class="font-semibold text-sm sm:text-xl">
-							<span class="font-black text-2xl sm:text-3xl">
-							00.00
-							</span>
-							<span class="lg:hidden"><br></span>
-							CAKE staked 
-						</div>
-						<button class="py-2 px-4 w-32 inline-flex justify-center items-center text-xl md:text-xl border-4 border-black rounded-full font-bold bg-black text-white hover:bg-white hover:text-black focus:outline-none ">
-							Unlock
-						</button>
-					</div>
-					
-					</div>
-			</div>
-		</section>
-
-		<section class="px-4 md:px-10 mt-16 mx-auto container lg:max-w-screen-lg">
-			<div class="grid md:grid-cols-2 items-center">
-				<div class="md:h-full px-8 pt-9 pb-12 flex flex-col rounded-xl bg-black z-10">
-					<h1 class="flex-1 flex items-center font-black text-5xl sm:text-7xl text-white md:leading-tight break-words uppercase">
-						BNB
-						<svg class="w-14 h-14 ml-4" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 620 620">
-							<g id="BNB" transform="translate(850.596 -1922)">
-								<circle id="Ellipse_59" data-name="Ellipse 59" cx="295" cy="295" r="295" transform="translate(-835.596 1937)" stroke="#fff" stroke-width="30"/>
-								<g id="Layer_1" data-name="Layer 1" transform="translate(-750.131 2022.464)">
-									<path id="Tracé_2404" data-name="Tracé 2404" d="M128.149,176.1,209.536,94.71l81.426,81.422,47.355-47.355L209.536,0,80.8,128.739l47.353,47.355M0,209.536l47.357-47.363L94.71,209.526,47.353,256.882Zm128.149,33.444,81.387,81.382,81.424-81.421,47.38,47.33-.023.025L209.536,419.071,80.8,290.333l-.067-.067,47.424-47.291m196.208-33.418L371.718,162.2l47.353,47.353-47.355,47.357Z" fill="#fff"/>
-									<path id="Tracé_2405" data-name="Tracé 2405" d="M1059.3,1011.242h.02l-48.049-48.052L975.752,998.7h0l-4.08,4.082-8.415,8.417-.067.065.067.069,48.01,48.017,48.052-48.052.024-.027-.044-.024" transform="translate(-801.732 -801.732)" fill="#fff"/>
-								</g>
-							</g>
-						</svg>
-					</h1>
-					<ul class="pt-4 sm:pt-6 text-white font-bold text-lg sm:text-2xl">
-						<li>
-							Earn : ART
-						</li>
-						<li class="sm:mt-2">
-							APY : 100%
-						</li>
-						<li class="sm:mt-2">
-							TVL : 12875.23
-						</li>
-					</ul>
-				</div>
-
-				<div class="-mt-2 md:my-8 mx-2 md:-ml-2 md:mr-0 py-8 px-4 md:pl-10 md:pr-6 border-4 lg:border-l-0 border-gray-100 rounded-xl lg:rounded-r-xl">
-					<div class="flex justify-between items-center">
-						<div class="font-semibold text-sm sm:text-xl">
-							<span class="font-black text-2xl sm:text-3xl">
-							00.00
-							</span>
-							<span class="lg:hidden"><br></span>
-							ART earned
-						</div>
-						<button class="py-2 px-4 w-32 inline-flex justify-center items-center text-xl md:text-xl border-4 border-black rounded-full font-bold bg-black text-white hover:bg-white hover:text-black focus:outline-none ">
-						Harvest
-					</button>
-					</div>
-					<div class="mt-8 flex justify-between items-center">
-						<div class="font-semibold text-sm sm:text-xl">
-							<span class="font-black text-2xl sm:text-3xl">
-							00.00
-							</span>
-							<span class="lg:hidden"><br></span>
-							BNB staked 
-						</div>
-						<button class="py-2 px-4 w-32 inline-flex justify-center items-center text-xl md:text-xl border-4 border-black rounded-full font-bold bg-black text-white hover:bg-white hover:text-black focus:outline-none ">
-							Unlock
-						</button>
-					</div>
-					
-					</div>
-			</div>
-		</section>
+	<FarmBlock
+		currency="BNB"
+		apy="233"
+		tvl="1285.23"
+		earn="0.00"
+		stakeButton="Unlock to stake">
+	</FarmBlock>
 
 		<!-- Add Metamask -->
 		<div class="hidden md:block mt-28 md:mt-36 text-center">
@@ -222,13 +84,16 @@
 
 <script>
 import FarmHeader from './components/FarmHeader.vue'
-import FarmTimer from './components/FarmTimer.vue'
+import FarmValuePorpoosition from './components/FarmValuePorpoosition.vue'
+import FarmBlock from './components/FarmBlock.vue'
+
 
 export default {
 	name: 'App',
 	components: {
 		FarmHeader,
-		FarmTimer,
+		FarmValuePorpoosition,
+		FarmBlock
 	}
 }
 </script>
